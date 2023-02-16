@@ -1,0 +1,45 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "alasos/1.0.0": {
+        "dependencies": {
+          "Parse": "1.7.0"
+        },
+        "runtime": {
+          "alasos.dll": {}
+        }
+      },
+      "Parse/1.7.0": {
+        "runtime": {
+          "lib/net45/Parse.NetFx45.dll": {
+            "assemblyVersion": "1.7.0.0",
+            "fileVersion": "1.7.0.0"
+          },
+          "lib/net45/Parse.dll": {
+            "assemblyVersion": "1.7.0.0",
+            "fileVersion": "1.7.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "alasos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Parse/1.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3LyEXZXXricjXfgxt1HsmUQK6u82bwNHf+PfV+dq+K6Fg6GZO4bb/khiD/CDLJaPNoZe06Ko+cwxyHrGoG98Ig==",
+      "path": "parse/1.7.0",
+      "hashPath": "parse.1.7.0.nupkg.sha512"
+    }
+  }
+}
