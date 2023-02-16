@@ -1,3 +1,138 @@
+/* _content/alasos/Pages/Login.cshtml.rz.scp.css */
+.register-container[b-34ajs7i7qg] {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: flex-start;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    flex-direction: column;
+    padding-bottom: 50px;
+    justify-content: flex-start;
+    background-color: var(--dl-color-general-bg);
+}
+
+.register-container01[b-34ajs7i7qg] {
+    gap: 100px;
+    flex: 0 0 auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-self: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.register-container-column[b-34ajs7i7qg] {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.register-head[b-34ajs7i7qg] {
+    font-style: normal;
+    font-family: Spectral;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.register-input-container[b-34ajs7i7qg] {
+    width: 100%;
+    display: flex;
+    max-width: 500px;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.register-label[b-34ajs7i7qg] {
+    color: var(--dl-color-general-white);
+    font-size: 14px;
+    font-family: Open Sans;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.register-textinput[b-34ajs7i7qg] {
+    color: var(--dl-color-general-bg);
+    width: 100%;
+    font-size: 14px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-radius: 0px;
+    background-color: #dcd9d5;
+}
+
+
+
+.register-button[b-34ajs7i7qg] {
+    color: var(--dl-color-general-white);
+    font-size: 13px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    font-family: Open Sans;
+    border-width: 0px;
+    border-radius: 0px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #AB615E;
+}
+
+.register-button1[b-34ajs7i7qg] {
+    color: var(--dl-color-general-white);
+    font-size: 13px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    font-family: Open Sans;
+    margin-left: 20px;
+    border-width: 0px;
+    border-radius: 0px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #51535a;
+}
+
+
+.register-textinput3[b-34ajs7i7qg] {
+    color: var(--dl-color-general-bg);
+    width: 100%;
+    font-size: 14px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-radius: 0px;
+    background-color: #dcd9d5;
+}
+
+
+.register-button-container[b-34ajs7i7qg] {
+    flex: 0 0 auto;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+@media(max-width: 1600px) {
+}
+
+@media(max-width: 479px) {
+    .register-container01[b-34ajs7i7qg] {
+        flex-wrap: wrap;
+    }
+}
 /* _content/alasos/Pages/Shared/_Layout.cshtml.rz.scp.css */
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */

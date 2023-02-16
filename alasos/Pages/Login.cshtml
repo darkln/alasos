@@ -1,0 +1,263 @@
+﻿@page
+@model alasos.Pages.LoginModel
+@{
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sweet Relieved Shrew</title>
+    <meta property="og:title" content="Sweet Relieved Shrew" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+        html {
+            line-height: 1.15;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+            border-width: 0;
+            border-style: solid;
+        }
+
+        p, li, ul, pre, div, h1, h2, h3, h4, h5, h6, figure, blockquote, figcaption {
+            margin: 0;
+            padding: 0;
+        }
+
+        button {
+            background-color: transparent;
+        }
+
+        button, input, optgroup, select, textarea {
+            font-family: inherit;
+            font-size: 100%;
+            line-height: 1.15;
+            margin: 0;
+        }
+
+        button, select {
+            text-transform: none;
+        }
+
+        button, [type="button"], [type="reset"], [type="submit"] {
+            -webkit-appearance: button;
+        }
+
+            button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
+                border-style: none;
+                padding: 0;
+            }
+
+            button:-moz-focus, [type="button"]:-moz-focus, [type="reset"]:-moz-focus, [type="submit"]:-moz-focus {
+                outline: 1px dotted ButtonText;
+            }
+
+        a {
+            color: inherit;
+            text-decoration: inherit;
+        }
+
+        input {
+            padding: 2px 4px;
+        }
+
+        img {
+            display: block;
+        }
+
+        html {
+            scroll-behavior: smooth
+        }
+    </style>
+
+    <style data-tag="default-style-sheet">
+        html {
+            font-family: Inter;
+            font-size: 16px;
+        }
+
+        body {
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none;
+            text-transform: none;
+            letter-spacing: normal;
+            line-height: 1.15;
+            color: var(--dl-color-general-white);
+            background-color: var(--dl-color-general-bg);
+        }
+    </style>
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+          data-tag="font" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+          data-tag="font" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+          data-tag="font" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+          data-tag="font" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+          data-tag="font" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+          data-tag="font" />
+    <link rel="stylesheet" href="./Login.css" />
+
+
+    <script type="text/javascript"
+            src="https://npmcdn.com/parse/dist/parse.min.js"></script>
+
+</head>
+
+
+<body>
+        <div class="register-container">
+            <div class="register-container01">
+                <div class="register-container-column">
+                    <h1 class="register-head">Login</h1>
+                    <div class="register-input-container">
+                        <label class="register-label">Username</label>
+                        <input id="usernameL" type="text" required="" class="register-textinput input" />
+                    </div>
+                    <div class="register-input-container">
+                        <label class="register-label">Password</label>
+                    <input id="passwordL"  type="password"
+                               required=""
+                               class="register-textinput input" />
+                    </div>
+                    <div class="register-button-container">
+                    <button id="loginButton" class="register-button button">Login</button>
+                    <button id="passButton" class="register-button1 button">Forgot Password</button>
+                    </div>
+                </div>
+                <div class="register-container-column">
+                    <h1 class="register-head">Register User</h1>
+                    <div class="register-input-container">
+                        <label class="register-label">Username</label>
+                        <input id="username" type="text"
+                               required=""
+                               class="register-textinput input" />
+                    </div>
+                    <div class="register-input-container">
+                        <label class="register-label">Password</label>
+                        <input id="password" type="text"
+                               required=""
+                               class="register-textinput input" />
+                    </div>
+                    <div class="register-input-container">
+                        <label class="register-label">Name</label>
+                        <input id="name" type="text"
+                               required=""
+                               class="register-textinput input" />
+                    </div>
+                    <div class="register-input-container">
+                        <label class="register-label">Email</label>
+                        <input id="email" type="email"
+                               required=""
+                               class="register-textinput input" />
+                    </div>
+                    <div class="register-button-container">
+                        <button id="createButton" class="register-button button">Register</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
+
+<script>
+    // Initialize Parse
+    Parse.initialize("HvzrJkjsa2qdjRy9auBDdCB70BdAFSHyNPUhQWiG", "kXDz3UWCXJ17njfb4vwjZ7e7QWPKfIHTk7yXuY9j"); //PASTE HERE YOUR Back4App APPLICATION ID AND YOUR JavaScript KEY
+    Parse.serverURL = "https://parseapi.back4app.com/";
+
+    // Create a new User
+    async function createParseUser() {
+        // Creates a new Parse "User" object, which is created by default in your Parse app
+        let user = new Parse.User();
+        // Set the input values to the new "User" object
+        user.set("name", document.getElementById("name").value);
+        user.set("username", document.getElementById("username").value);
+        user.set("password", document.getElementById("password").value);
+        user.set("email", document.getElementById("email").value);
+
+        try {
+            // Call the save method, which returns the saved object if successful
+            user = await user.save();
+            if (user !== null) {
+                // Notify the success by getting the attributes from the "User" object, by using the get method (the id attribute needs to be accessed directly, though)
+                alert(
+                    `New object created with success! ObjectId: ${user.id
+                    }, ${user.get("username")}`
+                );
+            }
+        } catch (error) {
+            alert(`Error: ${error.message}`);
+        }
+    }
+
+    // Login existing User
+    async function loginParseUser() {
+        // Create a new instance of the user class
+        var user = Parse.User
+            .logIn(document.getElementById("usernameL").value, document.getElementById("passwordL").value).then(function (user) {
+                alert(
+                    `Login success! ObjectId: ${user.id
+                    }, ${user.get("username")}`
+                );
+            }).catch(function (error) {
+                alert(`Error: ${error.message}`);
+            });
+    }
+
+    async function forgotParseUser() {
+        var email = "";
+        const User = Parse.Object.extend("User");
+        const query = new Parse.Query(User);
+
+        try{
+            query.equalTo("username", document.getElementById("usernameL").value);
+            const results = await query.find();
+
+            alert("Successfully sent password reset email to the account email.");
+            var user = results[0];
+
+                Parse.User.requestPasswordReset(user.get("email")).then(function () {
+                    console.log("Password reset request was sent successfully");
+                }).catch(function (error) {
+                    console.log("The reset failed with error: " + error.code + " " + error.message);
+                });
+        }catch(error){
+            alert(`Error: ${error.message}`);
+        }
+
+    }
+
+    // Add on click listener to call the create parse user function
+    document.getElementById("createButton").addEventListener("click", async function () {
+        createParseUser();
+    });
+
+    // Add on click listener to call the login parse user function
+    document.getElementById("loginButton").addEventListener("click", async function () {
+        loginParseUser();
+    });
+
+    // Add on click listener to call the forgot pass parse user function
+    document.getElementById("passButton").addEventListener("click", async function () {
+        forgotParseUser();
+    });
+</script>

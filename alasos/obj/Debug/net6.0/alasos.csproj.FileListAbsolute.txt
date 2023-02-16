@@ -70,3 +70,4 @@ C:\Users\muska\Documents\GitHub\alasos\alasos\obj\Debug\net6.0\refint\alasos.dll
 C:\Users\muska\Documents\GitHub\alasos\alasos\obj\Debug\net6.0\alasos.pdb
 C:\Users\muska\Documents\GitHub\alasos\alasos\obj\Debug\net6.0\alasos.genruntimeconfig.cache
 C:\Users\muska\Documents\GitHub\alasos\alasos\obj\Debug\net6.0\ref\alasos.dll
+C:\Users\muska\Documents\GitHub\alasos\alasos\obj\Debug\net6.0\scopedcss\Pages\Login.cshtml.rz.scp.css
